@@ -1,0 +1,39 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+/*  display: flex;
+  align-items: center;*/
+  box-shadow: 0px 0px 5px rgb(230,230,230);
+  width: 200px;
+  margin: 10px;
+  background-position: center;
+  color: black;
+}
+
+.card h2 {
+  margin-left: 20px;
+
+/*  flex-grow: 1;*/
+}
+
+.card:hover h2 {
+  display: block;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a {
+  margin-right: 20px;
+}

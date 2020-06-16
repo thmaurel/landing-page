@@ -1,0 +1,23 @@
+.banner {
+  background-image: url('../../images/background.jpg');
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.banner h1, .banner h2 {
+  color:white;
+  margin: 50px 0;
+}
+
+.banner h2 {
+  opacity: 0.6;
+}
+
+.banner a {
+  font-weight: bold;
+  font-size: 20px;
+}

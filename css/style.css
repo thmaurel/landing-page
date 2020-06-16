@@ -1,0 +1,23 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* Import components*/
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+
+/* Global properties */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+a {
+  text-decoration: none;
+}
