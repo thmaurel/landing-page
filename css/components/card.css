@@ -4,36 +4,40 @@
   grid-gap: 10px;
 }
 
-@media (max-width: 700px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
-
 .card {
-/*  display: flex;
-  align-items: center;*/
   box-shadow: 0px 0px 5px rgb(230,230,230);
-  width: 200px;
+  width: 250px;
   margin: 10px;
   background-position: center;
   color: black;
-}
-
-.card h2 {
-  margin-left: 20px;
-
-/*  flex-grow: 1;*/
-}
-
-.card:hover h2 {
-  display: block;
+  text-align: center;
+  position: relative;
 }
 
 .card img {
   width: 100%;
+  border-radius: 5px;
 }
 
-.card a {
-  margin-right: 20px;
+.team-name {
+  display:none;
+}
+
+.card:hover .team-name {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left:0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.7);
+}
+
+@media (max-width: 700px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
